@@ -19,6 +19,34 @@
     
   })
 
+// Enhanced hamburger menu functionality
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.querySelector(".nav-links");
+const navOverlay = document.createElement("div");
+navOverlay.className = "nav-overlay";
+document.body.appendChild(navOverlay);
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+  navOverlay.classList.toggle("active");
+  document.body.style.overflow = navLinks.classList.contains("active") ? "hidden" : "";
+});
+
+navOverlay.addEventListener("click", () => {
+  navLinks.classList.remove("active");
+  navOverlay.classList.remove("active");
+  document.body.style.overflow = "";
+});
+
+// Close menu when clicking on nav links
+document.querySelectorAll(".nav-links a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+    navOverlay.classList.remove("active");
+    document.body.style.overflow = "";
+  });
+});
+
   const sidebar = document.getElementById("sidebar");
   const overlay = document.getElementById("overlay");
   const closeBtn = document.getElementById("closeSidebar");
