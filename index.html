@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="profile.png">
+    <title>Muntazir's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#home" class="logo">Md Muntazir Alam</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects" id="myProjects">Projects</a></li>
+        <li><a href="#contact" id="myContact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Full-Stack Developer</h1>
+        <p>
+          Hi, I’m Md Muntazir Alam, a developer driven by curiosity and
+          innovation.
+        </p>
+        <p class="highlight">
+          I build dynamic, responsive, and secure websites that bridge the gap
+          between design and functionality. With expertise in both front-end
+          elegance and back-end logic, I aim to deliver products that empower
+          businesses and delight users.
+        </p>
+        <a href="#contact" class="cta-button">My Resume</a>
+      </div>
+      <div class="hero-image">
+        <img src="profile.png" class="profile-img" />
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h2>Technical Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <h3>Frontend development</h3>
+          <p>HTML, CSS, JavaScript, REACT</p>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-server"></i>
+          <h3>Backend development</h3>
+          <p>Node.js, JavaScript, MongoDB, Express.js</p>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="theme-switcher" style="margin: 1rem; text-align: center">
+        <button class="theme-btn" data-theme="theme-blue">🌊 Blue</button>
+        <button class="theme-btn" data-theme="theme-duo">🎨 Duo</button>
+        <button class="theme-btn" data-theme="theme-purple">⚡ Purple</button>
+        <button class="theme-btn" data-theme="theme-orange">🌅 Orange</button>
+      </div>
+      <p>&copy; 2025 Muntazir. All rights reserved.</p>
+      <a
+        href="https://github.com/tech-code20"
+        target="_blank"
+        class="fab fa-github"
+      ></a>
+      <a href="#" class="fab fa-facebook"></a>
+      <a
+        href="https://www.instagram.com/_tech20/"
+        target="_blank"
+        class="fab fa-instagram"
+      ></a>
+      <a href="#" class="fab fa-whatsapp"></a>
+    </footer>
+    <div id="overlay" class="overlay"></div>
+    <div id="sidebar" class="sidebar">
+      <span class="close-btn" id="closeSidebar">&times;</span>
+      <div id="sidebar-content"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
