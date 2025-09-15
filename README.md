@@ -31,7 +31,7 @@ I’m always eager to learn new technologies and contribute to meaningful projec
 
 ## 🔗 Connect With Me
 [<img src="https://img.icons8.com/fluency/48/000000/email.png" width="32" height="32" alt="Email"/>](mdmuntaziralamkne@gmail.com)
-[<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="32" height="32" alt="LinkedIn"/>](https://www.linkedin.com/in/mdmuntaziralamkne/)
+[<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="32" height="32" alt="LinkedIn"/>](https://www.linkedin.com/in/mdmuntaziralam-kne/)
 [<img src="https://img.icons8.com/fluency/48/000000/github.png" width="32" height="32" alt="GitHub"/>](https://github.com/tech-code20)
 [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="32" height="32" alt="Twitter"/>](https://twitter.com/imMdMuntazir)
 
