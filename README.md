@@ -15,9 +15,7 @@ I’m always eager to learn new technologies and contribute to meaningful projec
 
 ## 🚀 Tech Stack
 - **Languages:** HTML, CSS, JavaScript  
-- **Tools & Platforms:** Git, GitHub, VS Code, Netlify  
-- **Design:** Figma, Canva  
-
+- **Tools & Platforms:** Git, GitHub, VS Code
 ---
 
 ## 📂 Features of My Portfolio
