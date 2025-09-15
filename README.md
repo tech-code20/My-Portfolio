@@ -7,7 +7,7 @@ This repository contains the source code and details of my personal portfolio we
 ---
 
 ## 👨‍💻 About Me
-Hi, I'm **[Your Name]**, a passionate **Front-End Developer** and recent graduate (2024 🎓).  
+Hi, I'm **Md Muntazir Alam**, a passionate **Front-End Developer** and recent graduate (2024 🎓).  
 I love crafting clean, responsive, and user-friendly web applications.  
 I’m always eager to learn new technologies and contribute to meaningful projects.
 
@@ -15,7 +15,6 @@ I’m always eager to learn new technologies and contribute to meaningful projec
 
 ## 🚀 Tech Stack
 - **Languages:** HTML, CSS, JavaScript  
-- **Frameworks & Libraries:** React.js, Bootstrap, Tailwind CSS  
 - **Tools & Platforms:** Git, GitHub, VS Code, Netlify  
 - **Design:** Figma, Canva  
 
