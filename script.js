@@ -98,3 +98,12 @@ projectsLink.addEventListener("click", (e) => {
    });
 closeBtn.addEventListener("click", closeSidebarFunc);
 overlay.addEventListener("click", closeSidebarFunc);
+
+// Mobile nav toggle
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+  hamburger.classList.toggle("open");
+});
