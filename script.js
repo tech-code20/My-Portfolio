@@ -44,26 +44,158 @@
     </ul>`;
 
 
+// const projectsHTML = `
+//   <h2>My Projects</h2>
+//   <ul>
+//     <li><i class="fas fa-laptop-code"></i>
+//      <a href="https://tech-code20.github.io/My-Portfolio/">My Portfolio</a>
+//     </li>
+//     <li><i class="fas fa-laptop-code"></i>
+//       <a href="https://tech-code20.github.io/Rock-Paper-Scissors/" target="_blank">Rock Paper and Scissors Game</a>
+//     </li>
+//     <li><i class="fas fa-laptop-code"></i>
+//       <a href="https://tech-code20.github.io/MyProjects/" target = "_blank">A Survey Form</a>
+//     </li>
+//     <li><i class="fas fa-laptop-code"></i>
+//       <a href="https://tech-code20.github.io/FormValidation/" target="_blank">Form Validation</a>
+//     </li>
+//     <li><i class="fas fa-laptop-code"></i>
+//       <a href="https://tech-code20.github.io/Project_01/" target = "_blank">Calculator</a>
+//     </li>
+//   </ul>`
+// ;
+
+// const projectsHTML = `
+//   <h2>My Projects</h2>
+//   <ul>
+//     <li>
+//       <i class="fas fa-laptop-code"></i>
+//       <span>My Portfolio</span><br>
+//       <a href="https://github.com/tech-code20/My-Portfolio" target="_blank" class="github-link">
+//         <i class="fab fa-github"></i> GitHub
+//       </a> |
+//       <a href="https://tech-code20.github.io/My-Portfolio/" target="_blank" class="live-link">
+//         <i class="fas fa-external-link-alt"></i> Live Demo
+//       </a>
+//     </li>
+
+//     <li>
+//       <i class="fas fa-laptop-code"></i>
+//       <span>Rock Paper and Scissors Game</span><br>
+//       <a href="https://github.com/tech-code20/Rock-Paper-Scissors" target="_blank" class="github-link">
+//         <i class="fab fa-github"></i> GitHub
+//       </a> |
+//       <a href="https://tech-code20.github.io/Rock-Paper-Scissors/" target="_blank" class="live-link">
+//         <i class="fas fa-external-link-alt"></i> Live Demo
+//       </a>
+//     </li>
+
+//     <li>
+//       <i class="fas fa-laptop-code"></i>
+//       <span>A Survey Form</span><br>
+//       <a href="https://github.com/tech-code20/MyProjects" target="_blank" class="github-link">
+//         <i class="fab fa-github"></i> GitHub
+//       </a> |
+//       <a href="https://tech-code20.github.io/MyProjects/" target="_blank" class="live-link">
+//         <i class="fas fa-external-link-alt"></i> Live Demo
+//       </a>
+//     </li>
+
+//     <li>
+//       <i class="fas fa-laptop-code"></i>
+//       <span>Form Validation</span><br>
+//       <a href="https://github.com/tech-code20/FormValidation" target="_blank" class="github-link">
+//         <i class="fab fa-github"></i> GitHub
+//       </a> |
+//       <a href="https://tech-code20.github.io/FormValidation/" target="_blank" class="live-link">
+//         <i class="fas fa-external-link-alt"></i> Live Demo
+//       </a>
+//     </li>
+
+//     <li>
+//       <i class="fas fa-laptop-code"></i>
+//       <span>Calculator</span><br>
+//       <a href="https://github.com/tech-code20/Project_01" target="_blank" class="github-link">
+//         <i class="fab fa-github"></i> GitHub
+//       </a> |
+//       <a href="https://tech-code20.github.io/Project_01/" target="_blank" class="live-link">
+//         <i class="fas fa-external-link-alt"></i> Live Demo
+//       </a>
+//     </li>
+//   </ul>
+// `;
+
 const projectsHTML = `
   <h2>My Projects</h2>
   <ul>
-    <li><i class="fas fa-laptop-code"></i>
-     <a href="https://tech-code20.github.io/My-Portfolio/">My Portfolio</a>
+    <li>
+      <i class="fas fa-laptop-code"></i>
+      <span>My Portfolio</span>
+      <div class="project-links">
+        <a href="https://github.com/tech-code20/My-Portfolio" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://tech-code20.github.io/My-Portfolio/" target="_blank" class="live-link">
+          <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+      </div>
     </li>
-    <li><i class="fas fa-laptop-code"></i>
-      <a href="https://tech-code20.github.io/Rock-Paper-Scissors/" target="_blank">Rock Paper and Scissors Game</a>
+
+    <li>
+      <i class="fas fa-laptop-code"></i>
+      <span>Rock Paper and Scissors Game</span>
+      <div class="project-links">
+        <a href="https://github.com/tech-code20/Rock-Paper-Scissors" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://tech-code20.github.io/Rock-Paper-Scissors/" target="_blank" class="live-link">
+          <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+      </div>
     </li>
-    <li><i class="fas fa-laptop-code"></i>
-      <a href="https://tech-code20.github.io/MyProjects/" target = "_blank">A Survey Form</a>
+
+    <li>
+      <i class="fas fa-laptop-code"></i>
+      <span>A Survey Form</span>
+      <div class="project-links">
+        <a href="https://github.com/tech-code20/MyProjects" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://tech-code20.github.io/MyProjects/" target="_blank" class="live-link">
+          <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+      </div>
     </li>
-    <li><i class="fas fa-laptop-code"></i>
-      <a href="https://tech-code20.github.io/FormValidation/" target="_blank">Form Validation</a>
+
+    <li>
+      <i class="fas fa-laptop-code"></i>
+      <span>Form Validation</span>
+      <div class="project-links">
+        <a href="https://github.com/tech-code20/FormValidation" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://tech-code20.github.io/FormValidation/" target="_blank" class="live-link">
+          <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+      </div>
     </li>
-    <li><i class="fas fa-laptop-code"></i>
-      <a href="https://tech-code20.github.io/Project_01/" target = "_blank">Calculator</a>
+
+    <li>
+      <i class="fas fa-laptop-code"></i>
+      <span>Calculator</span>
+      <div class="project-links">
+        <a href="https://github.com/tech-code20/Project_01" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://tech-code20.github.io/Project_01/" target="_blank" class="live-link">
+          <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+      </div>
     </li>
-  </ul>`
-;
+  </ul>
+`;
+
+
 
 // Open sidebar with animation reset
 function openSidebar(content) {
@@ -107,3 +239,4 @@ hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
   hamburger.classList.toggle("open");
 });
+

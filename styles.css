@@ -465,3 +465,60 @@ footer {
     display: flex;
   }
 }
+
+/* Project links */
+.sidebar ul li .github-link {
+  color: #ccc; /* neutral gray for GitHub */
+  font-weight: 500;
+}
+.sidebar ul li .github-link:hover {
+  color: #fff;
+}
+
+.sidebar ul li .live-link {
+  color: var(--accent); /* use theme accent for Live Demo */
+  font-weight: 600;
+}
+.sidebar ul li .live-link:hover {
+  color: #1abc9c; /* brighter hover effect */
+}
+/* Project link buttons */
+.project-links {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+/* GitHub button */
+.github-link {
+  background: #333;
+  color: #fff;
+}
+.github-link:hover {
+  background: #555;
+}
+
+/* Live Demo button */
+/* Live Demo button */
+.live-link {
+  background: var(--accent);
+  color: #fff !important;   /* force white text */
+  font-weight: 600;
+}
+.live-link:hover {
+  background: var(--accent2);
+  color: #fff !important;   /* keep white text even on hover */
+}
+
