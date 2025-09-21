@@ -74,7 +74,7 @@ This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` fi
 If you have any questions or feedback, feel free to reach out:
 
 *   Email: mdmuntaziralamkne@gmail.com 
-*   LinkedIn: mdmuntaziralam-kne
+*   LinkedIn: https://www.linkedin.com/in/mdmuntaziralam-kne
 *   GitHub: https://github.com/tech-code20/
 
 ## 💖 Thanks
