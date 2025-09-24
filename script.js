@@ -130,12 +130,12 @@ const projectsHTML = `
   <ul>
     <li>
       <i class="fas fa-laptop-code"></i>
-      <span>My Portfolio</span>
+      <span>Prompt2Code</span>
       <div class="project-links">
-        <a href="https://github.com/tech-code20/My-Portfolio" target="_blank" class="github-link">
+        <a href="https://github.com/tech-code20/AI-Code-Gen-Gemini" target="_blank" class="github-link">
           <i class="fab fa-github"></i> GitHub
         </a>
-        <a href="https://tech-code20.github.io/My-Portfolio/" target="_blank" class="live-link">
+        <a href="https://code-with-gemini.netlify.app/" target="_blank" class="live-link">
           <i class="fas fa-external-link-alt"></i> Live Demo
         </a>
       </div>
